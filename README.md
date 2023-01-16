@@ -30,7 +30,7 @@ ______________________________________________________________________________
 
 # Descrição do Projeto
 
-O projeto foi desenvolvido para executar uma API de filmes, em um site feito em SPA com o framework Angular, e as linguagens: HTML5, CSS, e TypeScript. O site Movie Search utiliza um buscador e mostra os reultados em formato de lista.
+O projeto foi desenvolvido para executar uma API de filmes, em um site feito em SPA com o framework Angular, e as linguagens: HTML5, CSS, e TypeScript. O site Movie Search utiliza um buscador e mostra os resultados em formato de lista.
 
 
 # Ferramentas e bibliotecas utilizadas
