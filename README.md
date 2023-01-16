@@ -111,13 +111,10 @@ Houveram muitos desafios e problemas durante a execução do projeto. Principalm
 
 **Contato:**
 
-Telefone: 43 9948-6092
-
 E-mail: savatinfernanda@gmail.com
 
 Linkedin: https://www.linkedin.com/in/fernanda-savatin/
 
-GitHub: https://github.com/fernandasav
 
 # Referências
 
