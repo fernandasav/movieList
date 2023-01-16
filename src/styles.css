@@ -1,1 +1,77 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import 'bulma/css/bulma.css';
+
+  body,
+  footer {
+    background-color: whitesmoke;
+  }
+  
+  p {
+    margin: 0.5em 0 0.5em 0; 
+  }
+  
+  header {
+    height: 56px;
+    width: 100%;
+    background-color:#63A2FF; 
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.4);
+  } 
+
+  img {
+    padding-top: 2px;
+    padding-left: 10px;
+  }
+ 
+  a,
+  a:visited {
+    color: #1976d2;
+  }
+  
+  a:hover {
+    color:rgb(7, 0, 0);
+  }
+
+  .content {
+    display: flex;
+    margin: 82px auto 32px;
+    padding: 0 16px;
+    max-width: 960px;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+ 
+  .circle-link {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    margin: 0 12px 0 12px;
+    background-color: rgb(236, 230, 230);
+    border: 1px solid #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4), 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 1s ease-out;
+  }
+
+  .circle-link:hover {
+    transform: translateY(-0.25rem);
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .finalPage {
+    padding: 10px;
+    background-color:#63A2FF;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+

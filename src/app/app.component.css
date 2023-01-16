@@ -1,0 +1,19 @@
+h1 {
+    padding-top: 30px;
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(65, 66, 87);
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(65, 66, 87);
+    text-align: center;
+}
+
+.content {
+    margin-bottom: 0em;
+}
+

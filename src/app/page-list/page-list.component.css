@@ -1,0 +1,9 @@
+img {
+    padding-top: 10px;
+}
+
+mat-paginator {
+    background-color: whitesmoke;
+    border: 1px solid #68666688;
+    margin-top: 40px;
+}

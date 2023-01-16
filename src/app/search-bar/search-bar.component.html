@@ -1,0 +1,6 @@
+<div class="box">
+    <form (submit)="onFormSubmit($event)">
+        <input class=searchBar placeholder="Encontre seus filmes preferidos" class="input" (input)="term = $any($event.target).value">
+    </form>
+</div>
+

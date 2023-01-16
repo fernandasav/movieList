@@ -1,0 +1,10 @@
+.box {
+    background-color:#63A2FF; 
+    border: 1px;
+    padding: 1px;
+    width: 300px;
+    position: flex; 
+    margin-bottom: 48px;
+}
+
+

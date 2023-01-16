@@ -1,0 +1,19 @@
+<div class="container" align="center" *ngFor="let movie of movieList.results">   
+  <div>   
+    <img width=150px height=150px *ngIf="movie.poster_path" [src]="'https://image.tmdb.org/t/p/w500/' + movie.poster_path"  />
+    <img *ngIf="!movie.poster_path" src= "assets/notFound.png"/> 
+    <p *ngIf="movie.title">Titulo: {{movie.title}}</p>
+    <p *ngIf="movie.id">Identidade: {{movie.id}}</p>
+    <p *ngIf="movie.original_language" >Linguagem: {{movie.original_language}}</p> 
+    <p *ngIf="movie.original_title">Título Original: {{movie.original_title}}</p> 
+    <p *ngIf="movie.overview">Sinopse: {{movie.overview}}</p> 
+    <p *ngIf="movie.release_date">Data de lançamento: {{movie.release_date}}</p>
+  </div>    
+</div>
+<mat-paginator *ngIf="movieList.results"
+        [length]="movieList.total_results"
+        [pageSize]="20"
+        [pageIndex]="movieList.page"
+        (page)="updateInfo($event)"
+        aria-label="Select page">
+</mat-paginator>
